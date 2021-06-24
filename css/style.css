@@ -151,6 +151,12 @@ figure{
     border-radius: 15px;
     
 }
+.lab-info{
+    background-color: #608791;
+    color:white;
+    border: 1px solid black;
+    border: 15px;
+}
 
 h3.Lab{
     font-family: 'Rubik', sans-serif;
