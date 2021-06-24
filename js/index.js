@@ -6,10 +6,14 @@ $(".button").on('mouseover',function(){
     this.style.backgroundColor ='#608790'
 });
 
-$('.lab-info').on('click', function(){
-    console.log('lab clicked')
-})
-$(".top").on('click', function(){
-    console.log('nav clicked')
+$('figure').on('mouseover', function(){
+    $(this).addClass('lab-info')
+}).on('mouseout', function(){
+    $(this).removeClass('lab-info')
 });
 
+$('.top').on('mouseover', function(){
+    $(this).addClass('Topnav')
+}).on('mouseout', function(){
+    $(this).removeClass('Topnav')
+});

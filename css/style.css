@@ -39,12 +39,23 @@
 }
 .top{
    color: black;
-    padding: 70px;
+    padding: 30px;
+    margin-right: 70px;
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
 
+}
+.Topnav{
+    background-color: #608791;
+    color: white;
+    padding: 30px;
+    margin-right: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
 }
 
 /*Flex Container Styles*/
@@ -145,17 +156,24 @@ button{
 .button5{
     margin-left: 170px;
 }
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500; 
+    margin-top: -20px;
+}
 figure{
     background-color:#DAE2E4;
-    border: 1px solid black;
+    color: black;
+    border: 2px solid black;
     border-radius: 15px;
     
 }
 .lab-info{
     background-color: #608791;
     color:white;
-    border: 1px solid black;
-    border: 15px;
+    border: 2px solid black;
+    border: 11px;
 }
 
 h3.Lab{
@@ -165,13 +183,7 @@ h3.Lab{
     text-align: center;
     color: black;
 }
-h4{
-    font-family: 'Rubik', sans-serif;
-    font-size: 32px;
-    font-weight: 500;
-    color: black;  
-    margin-top: -20px;
-}
+
 .name{
     margin-top: -40px;
 }
