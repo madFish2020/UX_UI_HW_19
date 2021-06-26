@@ -223,6 +223,7 @@ h5{
 }
 .container5{
     margin-top: 10px;
+    margin-bottom: 40px;
 }
 .footer{
     display: flex;
@@ -262,16 +263,18 @@ h5{
     justify-content: space-evenly;
     align-self: baseline;
 }
-.section5{
-    justify-content: space-evenly;
-    align-self: baseline;
-}
 .bottom{
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: black;
     text-decoration: none;
+
+}
+.Copyright{
+   margin-top: -20px;
+   margin-right: 40px;
+    
 }
 h6{
     font-family: 'Rubik', sans-serif;
